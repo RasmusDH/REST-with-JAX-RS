@@ -4,7 +4,7 @@ import dto.PersonDTO;
 import dto.PersonsDTO;
 import entities.Person;
 import utils.EMF_Creator;
-import entities.RenameMe;
+import entities.Address;
 import exceptions.MissingInputException;
 import exceptions.PersonNotFoundException;
 import javax.persistence.EntityManager;
@@ -22,7 +22,7 @@ import org.junit.jupiter.api.Test;
 //@Disabled
 public class PersonFacadeTest {
     
-
+/*
     private static EntityManagerFactory emf;
     private static PersonFacade facade;
     private static Person p1, p2;
@@ -124,5 +124,5 @@ public class PersonFacadeTest {
         PersonDTO result = pFac.deletePerson(p_id);
         
         assertEquals(expResult, result);
-    }
+    }*/
 }
